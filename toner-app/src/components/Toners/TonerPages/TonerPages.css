@@ -1,0 +1,60 @@
+.toner-page {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #2196f3;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #2196f3;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #121212;
+  }
+  
+  div {
+    margin-top: 20px;
+  }
+  
+  span {
+    margin-right: 10px;
+  }
+  
+  /* Style the icon buttons */
+  div > svg {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  /* Style the delete button to be red */
+  div > svg[id='trash'] {
+    color: #ff0000;
+  }
+  
+  /* Style the edit button to be yellow */
+  div > svg[id='edit'] {
+    color: #ffff00;
+  }
+  
+  /* Style the add button to be green */
+  div > svg[id='plus'] {
+    color: #00ff00;
+  }
+  
+  /* Style the icon buttons on hover */
+  div > svg:hover {
+    color: #ffffff;
+  }
+  
+  /* Style the icon buttons on click */
+  div > svg:active {
+    color: #ff0000;
+  }
+  

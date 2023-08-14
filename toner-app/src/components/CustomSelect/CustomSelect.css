@@ -1,0 +1,5 @@
+/* Agrega un color de fondo al pasar el mouse sobre una opción */
+.custom-select-options .list-group-item:hover {
+    background-color: #f0f0f0;
+  }
+  
