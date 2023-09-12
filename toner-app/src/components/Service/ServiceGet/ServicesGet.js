@@ -18,7 +18,7 @@ const ServicesGet = () => {
       <ul>
         {data.map(item => (
             <li key={item.id}>
-                Id: {item.id}, Service: {item.name}
+                Servicio: {item.name}
             </li>
         ))}
       </ul>

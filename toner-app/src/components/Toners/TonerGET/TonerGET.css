@@ -1,0 +1,41 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title-tonerGET {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .toner-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .toner-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .toner-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .toner-name {
+    flex: 1;
+  }
+  
+  .toner-stock {
+    flex: 1;
+    text-align: right;
+  }
+  
